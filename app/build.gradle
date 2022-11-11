@@ -7,12 +7,12 @@ plugins {
 check.dependsOn 'assembleDebugAndroidTest'
 
 android {
-    namespace 'com.google.firebase.quickstart.auth'
+    namespace 'com.google.firebase.quickstart.database'
     compileSdkVersion 33
     flavorDimensions "minSdkVersion"
 
     defaultConfig {
-        applicationId "com.google.firebase.quickstart.auth"
+        applicationId "com.google.firebase.quickstart.database"
         minSdkVersion 19
         targetSdkVersion 33
         versionCode 1
